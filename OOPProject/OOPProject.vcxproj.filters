@@ -13,10 +13,37 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki źródłowe\View">
+      <UniqueIdentifier>{c6c13f81-d213-4fb2-8a56-55ba4cb8d10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Model">
+      <UniqueIdentifier>{42ac1565-c427-401f-8455-f642ba79f635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Controller">
+      <UniqueIdentifier>{81660735-63b9-4574-a340-ee34e654b059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\resources">
+      <UniqueIdentifier>{0ff88afb-15b7-4275-b3b9-7c55ab66f764}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OOPProject.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>Pliki źródłowe\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Pliki źródłowe\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GradeBook.cpp">
+      <Filter>Pliki źródłowe\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="SchoolClass.cpp">
+      <Filter>Pliki źródłowe\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentTest.cpp">
+      <Filter>Pliki źródłowe\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLoader.cpp">
+      <Filter>Pliki źródłowe\Controller</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

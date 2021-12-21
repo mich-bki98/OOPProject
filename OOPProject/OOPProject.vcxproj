@@ -139,7 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataLoader.cpp" />
+    <ClCompile Include="GradeBook.cpp" />
+    <ClCompile Include="SchoolClass.cpp" />
     <ClCompile Include="OOPProject.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="StudentTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
