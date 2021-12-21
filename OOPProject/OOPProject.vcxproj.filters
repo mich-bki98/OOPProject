@@ -36,14 +36,22 @@
     <ClCompile Include="GradeBook.cpp">
       <Filter>Pliki źródłowe\Model</Filter>
     </ClCompile>
-    <ClCompile Include="SchoolClass.cpp">
-      <Filter>Pliki źródłowe\Model</Filter>
-    </ClCompile>
     <ClCompile Include="StudentTest.cpp">
       <Filter>Pliki źródłowe\Model</Filter>
     </ClCompile>
     <ClCompile Include="DataLoader.cpp">
       <Filter>Pliki źródłowe\Controller</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Student.h">
+      <Filter>Pliki źródłowe\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentTest.h">
+      <Filter>Pliki źródłowe\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GradeBook.h">
+      <Filter>Pliki źródłowe\Model</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

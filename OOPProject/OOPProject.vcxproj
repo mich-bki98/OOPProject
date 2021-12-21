@@ -141,10 +141,14 @@
   <ItemGroup>
     <ClCompile Include="DataLoader.cpp" />
     <ClCompile Include="GradeBook.cpp" />
-    <ClCompile Include="SchoolClass.cpp" />
     <ClCompile Include="OOPProject.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="StudentTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GradeBook.h" />
+    <ClInclude Include="StudentTest.h" />
+    <ClInclude Include="Student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

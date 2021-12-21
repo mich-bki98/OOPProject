@@ -1,29 +1,21 @@
+#pragma once
 #include <iostream>
 #include <stdlib.h>
 #include <cmath>
 #include <vector>
-#include "SchoolClass.cpp"
-#include "StudentTest.cpp"
+#include "Student.h"
 
 using namespace std;
 
-class Student {
-private:
-	int id;
-	string name;
-	string lastName;
-	SchoolClass schoolClass;
-	vector<StudentTest> studentTestsVector;
-	static int studentIdOffset;
-public:
+int Student::studentIdOffset = 0;
 
-	Student(string name, string lastName, SchoolClass schoolClass) {
-		this->id = studentIdOffset;
-		this->name = name;
-		this->lastName = lastName;
-		this->schoolClass = schoolClass;
-	}
+Student::Student(string name, string lastName) {
+	this->id = studentIdOffset;
+	this->name = name;
+	this->lastName = lastName;
+	studentIdOffset++;
+}
 
-	
-
-};
+void Student::print() {
+	cout << "ID: " << this->id << " Name: " << this->name << " Last name: " << this->lastName << endl;
+}

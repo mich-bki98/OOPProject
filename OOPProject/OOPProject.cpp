@@ -1,13 +1,27 @@
-﻿#include <iostream>
+﻿#pragma once
+#include <iostream>
 #include <stdlib.h>
 #include <cmath>
 #include <vector>
+#include "Student.h"
+#include "StudentTest.h"
+#include "GradeBook.h"
 
 using namespace std;
 
 int main()
 {
+
     std::cout << "Hello World!\n";
+
+    Student *student = new Student("adam", "sssss");
+    Student* student2 = new Student("aaa", "zzz");
+
+    GradeBook* gradeBook = new GradeBook("lamusy");
+    gradeBook->addStudent(*student);
+    gradeBook->addStudent(*student2);
+
+    gradeBook->printStudents();
 }
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
